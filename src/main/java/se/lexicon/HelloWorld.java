@@ -19,6 +19,8 @@ public class HelloWorld {
         // sout + Tab
         System.out.println("Hello World!");
 
+        printMenu();
+
         // Variables
         // [data type] [variableName];
         int speed;
@@ -126,4 +128,20 @@ public class HelloWorld {
     }
 
     // Reformat the Code: Ctrl + Alt + L
+
+
+    // write a method to Print or Display the menu ?
+    public static void printMenu() {
+        System.out.println("Welcome to my calculator App");
+        System.out.println("1. Addition");
+        System.out.println("2. Subtraction");
+        System.out.println("3. Multiplication");
+        System.out.println("-----------");
+    }
+
+    public static double fahrenheitToCelsius(double fahrenheit) {
+        return (fahrenheit - 32) * 5 / 9;
+    }
+
+
 }

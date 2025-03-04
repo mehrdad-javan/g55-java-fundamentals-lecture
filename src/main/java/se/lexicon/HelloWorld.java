@@ -105,8 +105,9 @@ public class HelloWorld {
 
         String name = "Mehrdad";
         String lastName = "Javan";
-        name = name.concat(" ").concat(lastName); // Mehrdad Javan
-        System.out.println(name); // Mehrdad
+        //name = name.concat(" ").concat(lastName); // Mehrdad Javan
+        name = name + " " + lastName; // Mehrdad Javan
+        System.out.println(name); // Mehrdad Javan
 
 
     }

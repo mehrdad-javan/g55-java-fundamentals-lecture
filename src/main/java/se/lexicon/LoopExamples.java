@@ -14,7 +14,7 @@ public class LoopExamples {
 
         System.out.println("Even Numbers");
         for (int i = 1; i <= 10; i++) {
-            if (i % 2 == 0){
+            if (i % 2 == 0) {
                 System.out.println(i);
             }
         }
@@ -22,10 +22,10 @@ public class LoopExamples {
 
         System.out.println("Using continue to skip an iteration");
         for (int i = 1; i <= 10; i++) {
-            if (i == 6){
+            if (i == 6) {
                 continue;
             }
-            if (i % 2 == 0){
+            if (i % 2 == 0) {
                 System.out.println(i);
             }
         }
@@ -46,13 +46,13 @@ public class LoopExamples {
         Scanner scanner = new Scanner(System.in);
 
         boolean loggedIn = false;
-        while (!loggedIn){
+        while (!loggedIn) {
             System.out.println("Enter Username: ");
             String username = scanner.nextLine();
             System.out.println("Enter Password: ");
             String password = scanner.nextLine();
 
-            if (username.equals("admin") && password.equals("123456")){
+            if (username.equals("admin") && password.equals("123456")) {
                 loggedIn = true;
                 System.out.println("Login successful! Welcome to My App");
             } else {

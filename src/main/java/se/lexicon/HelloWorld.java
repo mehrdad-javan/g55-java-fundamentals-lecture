@@ -110,6 +110,19 @@ public class HelloWorld {
         System.out.println(name); // Mehrdad Javan
 
 
+        System.out.println("------------------");
+        Person object1 = new Person();
+        object1.firstName = "Mehrdad";
+        object1.lastName = "Javan";
+
+        Person object2 = new Person();
+        object2.firstName = "Elnaz";
+        object2.lastName = "Azizi";
+
+        System.out.println(object1.fullName()); // Mehrdad Javan
+        System.out.println(object2.fullName()); // Elnaz Azizi
+
+
     }
 
     // Reformat the Code: Ctrl + Alt + L

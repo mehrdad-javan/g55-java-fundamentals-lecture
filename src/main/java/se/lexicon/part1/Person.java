@@ -1,4 +1,4 @@
-package se.lexicon;
+package se.lexicon.part1;
 
 public class Person { // Blueprint - Template
 

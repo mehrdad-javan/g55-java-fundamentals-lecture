@@ -1,4 +1,4 @@
-package se.lexicon.workshop.solution2;
+package se.lexicon.part1.workshop.solution2;
 
 import java.util.Scanner;
 

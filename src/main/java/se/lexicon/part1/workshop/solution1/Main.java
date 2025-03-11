@@ -1,4 +1,4 @@
-package se.lexicon.workshop.solution1;
+package se.lexicon.part1.workshop.solution1;
 
 public class Main {
     public static void main(String[] args) {

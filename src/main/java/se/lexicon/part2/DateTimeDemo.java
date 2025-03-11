@@ -43,6 +43,10 @@ public class DateTimeDemo {
         LocalDate date = LocalDate.parse("2020-01-01");
         System.out.println("2020 is a leap year: = " + date.isLeapYear());
 
+        System.out.println(date.getYear());
+        System.out.println(date.getMonth());
+        System.out.println(date.getMonthValue());
+
         // Period
         // Duration
         // ZoneId or TimeZone

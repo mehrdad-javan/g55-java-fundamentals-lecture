@@ -1,4 +1,4 @@
-package se.lexicon.part1;
+package se.lexicon.part1.exercise;
 
 import java.util.Random;
 import java.util.Scanner;
